@@ -13,8 +13,11 @@ module.exports = {
       options: {
         name: "images",
         path: "./src/images/",
+        name: `blog`,
+        path: `${__dirname}/blog`,
       },
       __key: "images",
     },
+    "gatsby-plugin-mdx",
   ],
 };
